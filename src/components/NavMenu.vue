@@ -7,7 +7,7 @@
   
     <div v-if="isAuthenticated">
       Welcome {{ user.email }}
-      <button @click="logout" class="rounded-md bg-red-500 px-4 py-2 mx-2 text-red-700">LOGOUT</button>
+      <button @click="logout" class="rounded-md bg-red-500 px-4 py-2 mx-2 text-white">LOGOUT</button>
     </div>
     <div v-else>
      <RouterLink :to="{name: 'LoginPage'}">Login</RouterLink>
